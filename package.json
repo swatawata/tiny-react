@@ -1,0 +1,26 @@
+{
+  "name": "tiny-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "esbuild src/index.tsx --bundle --outfile=dist/bundle.js --jsx-factory=createElement"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swatawata/tiny-react.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/swatawata/tiny-react/issues"
+  },
+  "homepage": "https://github.com/swatawata/tiny-react#readme",
+  "devDependencies": {
+    "esbuild": "^0.25.11",
+    "typescript": "^5.9.3"
+  }
+}

@@ -1,0 +1,9 @@
+/node_moules
+
+/dist
+
+.DS_Store
+
+.vscode/
+
+*.log
