@@ -17,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/swatawata/tiny-react/issues"
   },
-  "homepage": "https://github.com/swatawata/tiny-react#readme"
+  "homepage": "https://github.com/swatawata/tiny-react#readme",
+  "devDependencies": {
+    "esbuild": "^0.25.11",
+    "typescript": "^5.9.3"
+  }
 }
